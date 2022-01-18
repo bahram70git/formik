@@ -1,0 +1,83 @@
+.Signup {
+    width: 400px;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.Signup > label {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.Signup input {
+    outline: none;
+    border: 3px solid #44ffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.Signup p {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.Signup-radio {
+    display: flex;
+    align-items: baseline;
+}
+
+.Signup-radio input {
+    margin-right: 5px;
+}
+
+.Signup-radio label {
+    margin-right: 20px;
+}
+
+.Signup-radio select {
+    width: 40%;
+    outline: none;
+    border: 3px solid #44ffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Signup_check {
+    display: flex;
+    align-items: baseline;
+    margin-top: 15px;
+}
+
+.Signup_check label {
+    margin: 0 40px 0 5px;
+}
+
+.Signup-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.Signup-btn button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #00aaaa;
+    color: #ffffff;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.Signup-btn button:first-child {
+    margin-right: 20px;
+}
+
+.Signup-btn button:disabled {
+    background: #a7a7a7;
+    cursor: not-allowed;
+}
